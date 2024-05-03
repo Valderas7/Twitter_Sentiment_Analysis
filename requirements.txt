@@ -6,3 +6,5 @@ re
 nltk
 wordcloud
 scikit-learn
+keras
+mlflow
