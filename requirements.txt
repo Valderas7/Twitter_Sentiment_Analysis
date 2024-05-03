@@ -1,8 +1,8 @@
+jupyter
 tensorflow
 matplotlib
 pandas
 numpy
-re
 nltk
 wordcloud
 scikit-learn

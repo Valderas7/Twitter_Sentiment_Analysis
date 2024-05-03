@@ -1,4 +1,4 @@
-artifact_uri: /content/drive/MyDrive/mlflow/mlruns/413953086926394230/025e1ff6974f412c898b91aeac09e127/artifacts
+artifact_uri: mlflow-artifacts:/413953086926394230/025e1ff6974f412c898b91aeac09e127/artifacts
 end_time: 1714763656884
 entry_point_name: ''
 experiment_id: '413953086926394230'
