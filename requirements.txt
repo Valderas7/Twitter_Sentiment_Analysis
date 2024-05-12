@@ -1,10 +1,12 @@
 jupyter
-tensorflow
+tensorflow==2.15.0
 matplotlib
 pandas
 numpy
 nltk
 wordcloud
 scikit-learn
-keras
+keras==2.15.0
 mlflow
+requests
+streamlit
