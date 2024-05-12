@@ -20,7 +20,7 @@ api_url = "http://localhost:8501/v1/models/sentiment_classifier:predict"
 # No se carga el modelo porque está en TensorFlow Serving
 
 # Se crea un botón de entrada de texto
-title = st.text_input(label="Tweet a analizar", value="")
+title = st.text_input(label="Tweet a analizar", value="I hate mondays")
 
 # Se crea un cuerpo JSON de entrada para enviar como solicitud 'POST' a TensorFlow Serving siguiendo su formato establecido de
 # usar 'instances' como clave y los valores a inferir
@@ -38,5 +38,5 @@ value = response['predictions'][0][0]
 value_string = 'positivo' if value >= 0.5 else 'negativo'
 
 # Se imprime la predicción obtenida con la petición 'POST' con una cabecera H4
-st.write("<h4 style='text-align: center; color: black;'> El sentimiento del tweet es " +
-         value_string + "</h4>", unsafe_allow_html=True)
+st.write("<h4 style='text-align: center; color: black;'> El sentimiento del tweet es " + value_string + "</h4>",
+         unsafe_allow_html=True)
